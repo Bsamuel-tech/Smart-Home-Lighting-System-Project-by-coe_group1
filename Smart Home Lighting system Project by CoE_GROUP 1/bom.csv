@@ -1,0 +1,8 @@
+﻿Name,Quantity,Component
+"U3",1,"MCP23008-based, 32 (0x20) LCD 16 x 2 (I2C)"
+"D1, D2, D3",3,"Red LED"
+"S1, S2",2," Pushbutton"
+"PIR1, PIR2, PIR3",3," PIR Sensor"
+"R1",1," Photoresistor"
+"U1",1," Arduino Uno R3"
+"R2, R3, R4",3,"1 kΩ Resistor"
