@@ -1,4 +1,4 @@
-# Smart Home Lighting System - CoE - GROUP 1
+# Smart Home Lighting System - CoE _ GROUP 1
 
 An Arduino-based automated lighting system with motion detection, ambient light sensing, and voice control.
 
@@ -6,12 +6,12 @@ An Arduino-based automated lighting system with motion detection, ambient light 
 This project implements a Smart Home Lighting System that automatically controls room lights using PIR motion sensors and a photoresistor for ambient light detection. 
 It features multiple control modes (automatic, manual, and voice commands) and provides real-time feedback via an LCD display and Serial Monitor.
 
-Developed in Tinkercad for simulation, this system is ideal for home automation, energy efficiency, and embedded systems learning.
+Developed in Wokwi for simulation, this system is ideal for home automation, energy efficiency, and embedded systems learning.
 
-✨ Features
+# ✨ Features
 Motion-Activated Lighting → Lights turn on only when motion is detected and ambient light is low.
 
-Three Control Modes:
+### Three Control Modes:
 
 Automatic Mode (default) – Smart sensor-based control.
 
@@ -34,13 +34,13 @@ Microcontroller: Arduino Uno R3
 
 1× Photoresistor (Ambient Light Detection)
 
-Outputs:
+### Outputs:
 
 3× LEDs (Room Lights)
 
 16×2 I2C LCD Display
 
-Inputs:
+### Inputs:
 
 2× Pushbuttons (Manual ON/OFF)
 
@@ -49,7 +49,7 @@ Inputs:
 # 💻 Software & Libraries
 Arduino IDE
 
-Libraries Used:
+## Libraries Used:
 
 Wire.h (I2C communication)
 
@@ -58,17 +58,17 @@ LiquidCrystal_I2C.h (LCD control)
 EEPROM.h (storing settings)
 
 # 📂 Project Structure
-Smart-Home-Lighting-System/  
+## Smart-Home-Lighting-System/  
 ├── code/  
 │   └── SmartHomeLighting.ino  # Main Arduino code  
 ├── docs/  
 │   ├── bom.csv               # Bill of Materials  
-│   ├── schematic.pdf         # Circuit diagram  
+│   ├── schematic.pdf, design.jpg        # Circuit diagram  
 │   └── Documentation & Powerpoint presentation # Full project specs  
 └── README.md  
 # 🚀 Setup & Usage
 ## 1. Tinkercad Simulation
-Open the project in Tinkercad (link if available).
+Open the project in Tinkercad (link IS available below ).
 
 
 Test using motion, light changes, and Serial commands.
@@ -81,7 +81,7 @@ Upload SmartHomeLighting.ino to Arduino.
 Open Serial Monitor (9600 baud) for voice commands.
 
 ## 3. Available Voice Commands
-Command	Action
+### Command	Action
 1	Turn ON all lights
 2	Turn OFF all lights
 3-5	Turn ON specific room (Living/Kitchen/Bedroom)
@@ -90,11 +90,9 @@ Command	Action
 10	Show system status
 11	Pause system
 12	Resume system
-13 [value]	Set light threshold (0-1023)
-📜 License
-This project is open-source under the MIT License.
+13 Set light threshold (0-1023)
 
-📎 Links
-Wokwi Simulation: https://wokwi.com/projects/426111984307473409
+# 📎 Links
+## Wokwi Simulation: https://wokwi.com/projects/426111984307473409
 
-Video Demo: https://youtu.be/zBfDvsBahwk
+## Video Demo: https://youtu.be/zBfDvsBahwk
