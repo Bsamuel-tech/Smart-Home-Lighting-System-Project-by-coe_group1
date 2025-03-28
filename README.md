@@ -1,8 +1,10 @@
-Smart Home Lighting System - CoE - GROUP 1
+## Smart Home Lighting System - CoE - GROUP 1
+
 An Arduino-based automated lighting system with motion detection, ambient light sensing, and voice control.
 
 📌 Overview
-This project implements a Smart Home Lighting System that automatically controls room lights using PIR motion sensors and a photoresistor for ambient light detection. It features multiple control modes (automatic, manual, and voice commands) and provides real-time feedback via an LCD display and Serial Monitor.
+This project implements a Smart Home Lighting System that automatically controls room lights using PIR motion sensors and a photoresistor for ambient light detection. 
+It features multiple control modes (automatic, manual, and voice commands) and provides real-time feedback via an LCD display and Serial Monitor.
 
 Developed in Tinkercad for simulation, this system is ideal for home automation, energy efficiency, and embedded systems learning.
 
