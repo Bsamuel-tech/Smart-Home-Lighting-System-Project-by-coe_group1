@@ -1,8 +1,8 @@
-## Smart Home Lighting System - CoE - GROUP 1
+# Smart Home Lighting System - CoE - GROUP 1
 
 An Arduino-based automated lighting system with motion detection, ambient light sensing, and voice control.
 
-📌 Overview
+# 📌 Overview
 This project implements a Smart Home Lighting System that automatically controls room lights using PIR motion sensors and a photoresistor for ambient light detection. 
 It features multiple control modes (automatic, manual, and voice commands) and provides real-time feedback via an LCD display and Serial Monitor.
 
@@ -25,10 +25,10 @@ EEPROM Storage – Remembers light sensitivity settings.
 
 Pause/Resume Function – Temporarily disable automation.
 
-🛠️ Hardware Components
+# 🛠️ Hardware Components
 Microcontroller: Arduino Uno R3
 
-Sensors:
+# Sensors:
 
 3× PIR Motion Sensors (Living Room, Kitchen, Bedroom)
 
@@ -46,7 +46,7 @@ Inputs:
 
 (See bom.csv for full Bill of Materials.)
 
-💻 Software & Libraries
+# 💻 Software & Libraries
 Arduino IDE
 
 Libraries Used:
@@ -57,7 +57,7 @@ LiquidCrystal_I2C.h (LCD control)
 
 EEPROM.h (storing settings)
 
-📂 Project Structure
+# 📂 Project Structure
 Smart-Home-Lighting-System/  
 ├── code/  
 │   └── SmartHomeLighting.ino  # Main Arduino code  
@@ -66,22 +66,21 @@ Smart-Home-Lighting-System/
 │   ├── schematic.pdf         # Circuit diagram  
 │   └── Documentation & Powerpoint presentation # Full project specs  
 └── README.md  
-🚀 Setup & Usage
-1. Tinkercad Simulation
+# 🚀 Setup & Usage
+## 1. Tinkercad Simulation
 Open the project in Tinkercad (link if available).
 
-Upload the code to the Arduino Uno.
 
 Test using motion, light changes, and Serial commands.
 
-2. Real Hardware Setup
+## 2. Real Hardware Setup
 Connect components as per the schematic.
 
 Upload SmartHomeLighting.ino to Arduino.
 
 Open Serial Monitor (9600 baud) for voice commands.
 
-3. Available Voice Commands
+## 3. Available Voice Commands
 Command	Action
 1	Turn ON all lights
 2	Turn OFF all lights
