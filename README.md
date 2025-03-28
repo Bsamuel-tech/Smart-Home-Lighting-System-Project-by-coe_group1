@@ -81,15 +81,24 @@ Upload SmartHomeLighting.ino to Arduino.
 Open Serial Monitor (9600 baud) for voice commands.
 
 ## 3. Available Voice Commands
+
 ### Command	Action
 1	Turn ON all lights
+
 2	Turn OFF all lights
+
 3-5	Turn ON specific room (Living/Kitchen/Bedroom)
+
 6-8	Turn OFF specific room
+
 9	Switch to Automatic Mode
+
 10	Show system status
+
 11	Pause system
+
 12	Resume system
+
 13 Set light threshold (0-1023)
 
 # 📎 Links
