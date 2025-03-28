@@ -104,4 +104,4 @@ Open Serial Monitor (9600 baud) for voice commands.
 # 📎 Links
 ## Wokwi Simulation: https://wokwi.com/projects/426111984307473409
 
-## Video Demo: https://youtu.be/zBfDvsBahwk
+## Video Demo: https://youtu.be/0YpI4ldbySQ
